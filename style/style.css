@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(228, 228, 228);
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-weight: 200;
+    font-family: "idroid", sans-serif;
+}
+span{
+    color: goldenrod;
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+}
+.itens-nav{
+    margin: 30px;
+    font-family: "bebas neue", sans-serif;
+    font-size: 23px;
+}
+#item-nav-unico{
+    border: solid 2px blueviolet;
+    border-radius: 15px;
+    padding: 8px 10px;
+}
+#item-nav-unico:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: blueviolet;
+    transition: 0.5ms;
+}
+
+/* conteudo Main */
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
+.title-main{ 
+    font-size: 70px;
+    font-family: "bebas neue", sans-serif;
+    color: blueviolet;
+}
+.text-main{
+    margin-top: 20px;
+    max-width: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/* Imagens */
+
+.img-ind{
+    width: 480px;
+}
+
+/* Formulario */
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+input{
+    margin-top: 20px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+#botao-enviar{
+    height: 50px;
+    width: 50%;
+    border: 2px solid blueviolet;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+} 
+#botao-enviar:hover{
+    background-color: blueviolet;
+    color: #fff;
+    
+}

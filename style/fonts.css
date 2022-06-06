@@ -1,0 +1,11 @@
+@charset
+
+
+@font-face{
+    font-family: "bebas neue", sans-serif;
+    src: url(Fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family:"idroid", sans-serif;
+    src: url(Fonts/idroid.otf);
+}
